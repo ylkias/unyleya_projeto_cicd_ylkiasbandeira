@@ -1,0 +1,4 @@
+Release {{ .Release.Name }} Aplicado com sucesso !!! 
+
+Para acessar verifique o serviço executando o comando abaixo: 
+kubectl get service {{ .Release.Name }}-front

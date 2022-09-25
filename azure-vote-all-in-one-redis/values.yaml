@@ -1,0 +1,7 @@
+back: 
+  imageTag: 6.0.8
+
+front:
+  imageTag : v1
+  service:
+    type: LoadBalancer
